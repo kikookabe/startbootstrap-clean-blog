@@ -677,8 +677,6 @@ progress {
   flex-shrink: 0;
   width: 100%;
   max-width: 100%;
-  padding-right: calc(var(--bs-gutter-x) * 0.5);
-  padding-left: calc(var(--bs-gutter-x) * 0.5);
   margin-top: var(--bs-gutter-y);
 }
 
@@ -11246,3 +11244,84 @@ header.masthead .site-heading .h1 {
     font-size: 2.25rem;
   }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  .btn-primary {
+  margin-right: auto;
+  margin-left: auto;
+  }
+
+
+
+
+
+
+
+
+  .clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
+  }
+  
+  
+  .left-column {
+  
+    float: left;
+  
+    width: 50%; /* 要素の幅を50%に定義 */
+  
+  
+  }
+  
+  .right-column {
+  
+    float: right;
+  
+    width: 50%; /* 要素の幅を50%に定義 */
+  
+   
+  }
+
+
+
+
+  .card-deck {
+    margin-bottom: 2rem;
+    margin-top: 3rem;
+  }
+
+  .card {
+    border-radius: 0.3rem;
+    margin-bottom: 1rem
+  }
+
+
+  .card {
+    margin-right: auto;
+    margin-left: auto;
+    }
+
+
+.card-deck {
+  margin: 0 auto; 
+}
+  
